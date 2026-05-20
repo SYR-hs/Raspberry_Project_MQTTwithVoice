@@ -14,7 +14,7 @@
 ### 1. 파이썬 음성 합성(TTS) 엔진 아키텍처 비교
 Reference: [Speech engines with python tutorial - Pythonspot](https://pythonspot.com/speech-engines-with-python-tutorial/)
 학습 내용: 파이썬 환경에서 구동 가능한 대표적인 TTS 엔진들의 작동 방식과 장단점을 비교 분석하여, 본 프로젝트 환경에 가장 적합한 엔진을 선정하는 데 참고.
-`pyttsx3`: (본 프로젝트 노트북 노드에 적용)** 오프라인 환경에서 동작하며 Mac, Windows, Linux 크로스 플랫폼을 지원. (로컬 연산)
+`pyttsx3`: (본 프로젝트 노트북 노드에 적용) 오프라인 환경에서 동작하며 Mac, Windows, Linux 크로스 플랫폼을 지원. (로컬 연산)
 `espeak`: 라즈베리파이와 같은 리눅스 환경에서 가볍게 동작하는 기본 명령어 기반 TTS 도구입니다.
 `gTTS (Google TTS)`: 구글 클라우드 기반으로 매우 자연스러운 사람의 음성을 제공하지만, API 호출을 위해 상시 인터넷 연결이 필수적이라는 차이점을 확인.
 
