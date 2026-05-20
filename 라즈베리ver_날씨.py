@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import requests
 
 # OpenWeatherMap API 설정
-API_KEY = "547a0951033d1920253a706ebdad89f8"
+API_KEY = "ENTER_YOUR_API_KEY"
 url = f"https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid={API_KEY}&units=metric"
 
 def on_message(client, userdata, msg):
