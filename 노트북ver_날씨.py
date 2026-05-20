@@ -14,7 +14,7 @@ def on_message(client, userdata, msg):
     engine.runAndWait()
 
 # MQTT 설정
-broker_address = "10.60.7.169" 
+broker_address = "XXX.XXX.XXX.XXX" # 라즈베리파이 IP
 client = mqtt.Client(client_id="Laptop_Node")
 client.on_message = on_message
 client.connect(broker_address)
